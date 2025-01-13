@@ -1,7 +1,7 @@
 import React from 'react';
-import Skills from '../components/Skills'; // Corrected 'commponets' to 'components'
-import Projects from '../components/Projects'; // Corrected 'commponets' to 'components'
-import nasiphiImage from '../images/nasiphi.png'; // Corrected 'image' to 'images'
+import Skills from '../commponets/Skills'; // Corrected 'commponets' to 'components'
+import Projects from '../commponets/Projects'; // Corrected 'commponets' to 'components'
+import nasiphiImage from '../image/nasiphi.png'; // Corrected 'image' to 'images'
 
 const Home = () => {
   return (
