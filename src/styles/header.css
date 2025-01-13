@@ -1,0 +1,68 @@
+/* Header Container Styling */
+.portfolio-header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 10;
+}
+
+/* Header Content Styling */
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-right: auto;
+}
+
+.name-blue {
+    color: #1e88e5;
+}
+
+.name-white {
+    color: #ffffff;
+}
+
+/* Navigation Styling */
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.navigation a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Social Media Icons Styling */
+/* Social Media Icons Styling */
+.social-icons {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.social-icons a {
+    margin-left: 12px;
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #1e88e5; /* Blue color on hover */
+}
